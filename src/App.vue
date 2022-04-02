@@ -1,8 +1,8 @@
 <template>
-  <nav>
+  <!-- <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </nav>
+  </nav> -->
   <router-view/>
 </template>
 
@@ -14,17 +14,24 @@
   text-align: center;
   color: #2c3e50;
 }
-
-nav {
-  padding: 30px;
+h2 {
+  color: #f08080;
 }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.button {
+  background-color: white;
+  border-color: #f08080;
+  border-radius: 10%;
+  color: #f08080;
+}
+.header {
+  padding-top: 2%;
+  background-color: #f08080;
+  color: white;
+  padding-bottom: 2%;
+}
+.title {
+  text-align: center;
 }
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
